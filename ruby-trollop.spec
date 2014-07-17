@@ -2,7 +2,7 @@
 Summary:	Yet another commandline option parsing library
 Name:		ruby-%{pkgname}
 Version:	1.15
-Release:	3
+Release:	4
 License:	Ruby
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
