@@ -2,7 +2,7 @@
 Summary:	Yet another commandline option parsing library
 Name:		ruby-%{pkgname}
 Version:	1.15
-Release:	4
+Release:	5
 License:	Ruby
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
@@ -10,6 +10,7 @@ Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
 URL:		http://trollop.rubyforge.org/
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
